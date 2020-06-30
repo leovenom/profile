@@ -73,6 +73,7 @@ a:hover {
   padding: 10px 20px;
   border-radius: 5px;
   margin-right: 20px;
+  margin: 15px 4px;
 }
 
 #btn-color:hover {
@@ -141,7 +142,7 @@ a:hover {
 }
 
 #btn {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .container {
@@ -193,6 +194,7 @@ a:hover {
   }
   .card_projects{
     padding: 0px;
+    flex-grow: 1;
   }
   .a {
     font-size: 20px;
@@ -248,7 +250,7 @@ a:hover {
   width: 100%;
   margin: 0;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 80px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -267,10 +269,6 @@ a:hover {
   transition: all 0.3s ease;
 }
 
-/* .card:hover .info {
-  height: 90%;
-}
-
 .card:hover .text {
   transition: all 0.3s ease;
   opacity: 1;
@@ -279,8 +277,10 @@ a:hover {
 
 .card:hover .title {
   color: #283742;
-} */
+}
 
-.card:hover {
-  opacity: 0.7;{
+.data:hover {
+  background-color: rgba(255,255,255,0.8);
+  width: 300px;
+  height: 300px;
 }
