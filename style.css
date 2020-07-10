@@ -126,6 +126,12 @@ a:hover {
   margin: 10px;
   object-fit: cover;
 }
+#game{
+  background-size: cover;
+  background-image: url('images/portfolio-color-game.png');
+  margin: 10px;
+  object-fit: cover;
+}
 
 
 .inline > li {
