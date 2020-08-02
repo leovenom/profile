@@ -1,6 +1,5 @@
-# Olá, I'm Leonardt 👨🏻‍💻
+# My profile page 👨🏻‍💻
 
-My profile page
 <a href="https://leovenom.github.io/profile/">
-  <img src="https://i.imgur.com/PEYwiAn.png">
+  <img src="https://i.imgur.com/REAgn9o.jpg">
 </a>
