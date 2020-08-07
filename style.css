@@ -133,6 +133,13 @@ a:hover {
   object-fit: cover;
 }
 
+#proffy{
+  background-size: cover;
+  background-image: url('images/proffy.jpeg');
+  margin: 10px;
+  object-fit: cover;
+}
+
 
 .inline > li {
   list-style: none;
