@@ -305,13 +305,33 @@ a:hover {
   height: 300px;
   transition: all 0.2s ease;
 }
+
 /* ---- reset ---- */ 
 
-canvas{ 
-  height: 100vh; 
-  width: 100vw; 
-  display: block;
-} 
+body,
+html {
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
 /* ---- stats.js ---- */ 
 .count-particles { 
   background: #000022; 
@@ -346,14 +366,6 @@ canvas{
   .count-particles { 
     border-radius: 0 0 3px 3px; 
   }
-
-/* ---- particles.js container ---- */ 
-#particles-js{ 
-  position:absolute; 
-  width: 100%;
-  height: 1992px;
-  z-index: -1;
-}
 
 @media (max-width: 600px) {
   #particles-js{ 
@@ -392,5 +404,3 @@ canvas{
   
 .count-particles{ 
   border-radius: 0 0 3px 3px; }
-
-  
