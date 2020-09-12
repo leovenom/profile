@@ -95,10 +95,11 @@ a:hover {
   height: 350px;
   margin: 0 auto;
   border-radius: 50%;
+  transition: opacity .5s linear;
+  cursor: pointer;
 }
 #foto:hover {
   background-image: url("images/i-KLsZ98J-4K.png");
-  transition: all 0.3s ease;
 }
 
 #panoplia {
