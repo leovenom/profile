@@ -90,14 +90,14 @@ a:hover {
 
 #foto {
   background-size: cover;
-  background-image: url('images/i-4HCZTK4-4K.jpg');
+  background-image: url('images/i-4HCZTK4-4K.png');
   width: 350px;
   height: 350px;
   margin: 0 auto;
   border-radius: 50%;
 }
 #foto:hover {
-  background-image: url("images/i-KLsZ98J-4K.jpg");
+  background-image: url("images/i-KLsZ98J-4K.png");
   transition: all 0.3s ease;
 }
 
