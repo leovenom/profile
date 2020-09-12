@@ -279,11 +279,10 @@ a:hover {
 }
 
 .card .text {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   font-size: 13px;
   text-align: center;
-  margin-top: 20px;
   font-weight: 200;
   letter-spacing: 2px;
   opacity: 0;
