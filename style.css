@@ -34,6 +34,10 @@ p {
   font-family: 'Karla', sans-serif;
 }
 
+p.text {
+  color: #283742;
+}
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -57,6 +61,11 @@ a:hover {
   transition: all 0.3s ease;
 }
 
+ul.inline {
+  display: flex;
+  justify-content: center;
+}
+
 .card a {
   font-size: 25px;
 }
@@ -66,7 +75,7 @@ a:hover {
   padding: 30px;
   margin: 50px auto;
   border-radius: 5px;
-  box-shadow: 10px 10px #f1f1f1;
+  box-shadow: 10px 10px rgba(90, 90, 90, 0.05);
   text-align: center;
 }
 .card_projects {
@@ -266,7 +275,7 @@ a:hover {
   min-width: 300px;
   height: 250px;
   border-radius: 5px;
-  box-shadow: 10px 10px #f1f1f1;
+  box-shadow: 10px 10px rgba(90, 90, 90, 0.05);
   font-size: 16px;   
   transition: all 0.3s ease;
   position: relative;
@@ -326,6 +335,10 @@ a:hover {
   width: 300px;
   height: 300px;
   transition: all 0.2s ease;
+}
+.data {
+  height: 100%;
+  width: 100%;
 }
 
 /* ---- reset ---- */ 
