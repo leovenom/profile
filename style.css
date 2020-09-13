@@ -114,66 +114,66 @@ ul.inline {
 #panoplia {
   background-size: cover;
   background-image: url('images/portfolio--panoplia-2.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 
 #ripio {
   background-size: cover;
   background-image: url('images/portfolio-ripio.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 #loker{
   background-size: cover;
   background-image: url('images/portfolio-localocker.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 #candy {
   background-size: cover;
   background-image: url('images/portfolio-museum-of-candy.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 #insta{
   background-size: cover;
   background-image: url('images/portfolio-insta.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 #game{
   background-size: cover;
   background-image: url('images/portfolio-color-game.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 
 #proffy{
   background-size: cover;
   background-image: url('images/Proffy.jpeg');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 
 #key{
   background-size: cover;
   background-image: url('images/portfolio-key-sound.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 
 #clock{
   background-size: cover;
   background-image: url('images/portfolio-clock.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 
 #canvas{
   background-size: cover;
   background-image: url('images/portfolio-fun-canvas.png');
-  margin: 10px;
+  margin: 15px;
   object-fit: cover;
 }
 
