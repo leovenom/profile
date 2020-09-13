@@ -147,6 +147,27 @@ a:hover {
   object-fit: cover;
 }
 
+#key{
+  background-size: cover;
+  background-image: url('images/portfolio-key-sound.png');
+  margin: 10px;
+  object-fit: cover;
+}
+
+#clock{
+  background-size: cover;
+  background-image: url('images/portfolio-clock.png');
+  margin: 10px;
+  object-fit: cover;
+}
+
+#canvas{
+  background-size: cover;
+  background-image: url('images/portfolio-fun-canvas.png');
+  margin: 10px;
+  object-fit: cover;
+}
+
 
 .inline > li {
   list-style: none;
