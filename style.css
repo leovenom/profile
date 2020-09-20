@@ -163,13 +163,6 @@ ul.inline {
   object-fit: cover;
 }
 
-#clock{
-  background-size: cover;
-  background-image: url('images/portfolio-clock.png');
-  margin: 15px;
-  object-fit: cover;
-}
-
 #canvas{
   background-size: cover;
   background-image: url('images/portfolio-fun-canvas.png');
