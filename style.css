@@ -6,14 +6,12 @@ html, body {
   padding: 0;
   height: 100%;
 }
-
 body {
   color: #272343;
   font-family: Noto;
   font-size: 20px;
   background: #f6f7f7;
 }
-
 h1, h2 {
   font-size: 26px;
   color: #283742;
@@ -21,11 +19,9 @@ h1, h2 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
 }
-
 h2 {
   margin-top: 0;
 }
-
 p {
   margin: 30px 30px;
   text-align: center;
@@ -33,43 +29,35 @@ p {
   padding-bottom: 10px;
   font-family: 'Karla', sans-serif;
 }
-
 p.text {
   color: #283742;
 }
-
 a {
   color: #ffffff;
   text-decoration: none;
   font-family: 'Karla', sans-serif;
   letter-spacing: 1px;
 }
-
 a:hover {
   color: #283742;
 }
-
 .inline a {
   color: #283742;
   font-size: 25px;
   text-decoration: none;
   font-family: 'Rubik', sans-serif;
 }
-
 .inline a:hover {
   color: #bad1e8;
   transition: all 0.3s ease;
 }
-
 ul.inline {
   display: flex;
   justify-content: center;
 }
-
 .card a {
   font-size: 25px;
 }
-
 .card_white {
   background-color: white;
   padding: 30px;
@@ -83,7 +71,6 @@ ul.inline {
   margin: 50px auto;
   text-align: center;
 }
-
 #btn-color {
   background-color: #283742;
   padding: 10px 20px;
@@ -91,12 +78,10 @@ ul.inline {
   margin-right: 20px;
   margin: 15px 4px;
 }
-
 #btn-color:hover {
   background-color: #bad1e8;
   transition: all 0.3s ease;
 }
-
 #foto {
   background-size: cover;
   background-image: url('images/i-4HCZTK4-4K.png');
@@ -110,14 +95,12 @@ ul.inline {
 #foto:hover {
   background-image: url("images/i-KLsZ98J-4K.png");
 }
-
 #panoplia {
   background-size: cover;
-  background-image: url('images/portfolio--panoplia-2.png');
+  background-image: url('images/portfolio-panoplia-2.png');
   margin: 15px;
   object-fit: cover;
 }
-
 #ripio {
   background-size: cover;
   background-image: url('images/portfolio-ripio.png');
@@ -169,33 +152,32 @@ ul.inline {
   margin: 15px;
   object-fit: cover;
 }
-
-
+#git-search{
+  background-size: cover;
+  background-image: url('images/portfolio-leo-github-search.png');
+  margin: 15px;
+  object-fit: cover;
+}
 .inline > li {
   list-style: none;
   display: inline-block;
   padding-left: 0;
 }
-
 .fab {
   font-size: 45px;
   margin: 0px auto;
   padding: 20px 25px;
 }
-
 .inline {
   padding: 0;
 }
-
 #btn {
   margin-bottom: 10px;
 }
-
 .container {
   width: 950px;        /* Set the width */
   margin: 0 auto;
 }
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -251,7 +233,6 @@ ul.inline {
     font-size: 12px;
   }
 }
-
 .content {
   max-width: 1024px;
   padding: 0 50%;
@@ -261,7 +242,6 @@ ul.inline {
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
 }
-
 .card {
   width: 100%;
   max-width: 300px;
@@ -284,13 +264,11 @@ ul.inline {
 @media (max-width: 600px) {
   .content {grid-template-columns: repeat(1, 1fr);}
 }
-
 .title {
   text-align: center;
   font-family: 'Rubik', sans-serif;
   color: transparent;
 }
-
 .card .title {
   width: 100%;
   margin: 0;
@@ -300,7 +278,6 @@ ul.inline {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
 .card .text {
   width: 85%;
   margin: 0 auto;
@@ -311,18 +288,15 @@ ul.inline {
   opacity: 0;
   max-height:0;
 }
-
 .card:hover .text {
   transition: all 0.3s ease;
   opacity: 1;
   max-height:40px;
 }
-
 .card:hover .title {
   color: #283742;
   transition: all 0.3s ease;
 }
-
 .data:hover {
   background-color: rgba(255,255,255,0.8);
   width: 300px;
@@ -333,27 +307,24 @@ ul.inline {
   height: 100%;
   width: 100%;
 }
-
 /* ---- reset ---- */ 
-
 #particles-js canvas {
-    display: block;
-    vertical-align: bottom;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-    transition: opacity .8s ease, transform 1.4s ease
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
 }
-
 #particles-js {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -10;
-    top: 0;
-    left: 0
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0
 }
 /* ---- stats.js ---- */ 
 .count-particles { 
@@ -371,31 +342,27 @@ ul.inline {
   font-family: Helvetica, Arial, sans-serif; 
   font-weight: bold; 
 } 
+.js-count-particles { 
+  font-size: 1.1em; 
+} 
 
-  .js-count-particles { 
-    font-size: 1.1em; 
-  } 
-
-  #stats, .count-particles { 
+#stats, .count-particles { 
   -webkit-user-select: none; 
   margin-top: 5px; 
   margin-left: 5px; 
+}
+#stats{ 
+  border-radius: 3px 3px 0 0; 
+  overflow: hidden; 
 } 
-  
-  #stats{ 
-    border-radius: 3px 3px 0 0; 
-    overflow: hidden; 
-  } 
-  .count-particles { 
-    border-radius: 0 0 3px 3px; 
-  }
-
+.count-particles { 
+  border-radius: 0 0 3px 3px; 
+}
 @media (max-width: 600px) {
   #particles-js{ 
     height: 400%;
   }
 }
-
   /* ---- stats.js ---- */ 
 .count-particles{ 
   background: #000022; 
@@ -410,19 +377,20 @@ ul.inline {
   line-height: 14px; 
   padding-bottom: 2px; 
   font-family: Helvetica, Arial, sans-serif; 
-  font-weight: bold; } 
-    
-.js-count-particles{ 
-  font-size: 1.1em; } 
-      
-#stats, .count-particles{ 
+  font-weight: bold; 
+} 
+.js-count-particles { 
+  font-size: 1.1em; 
+} 
+#stats, .count-particles { 
   -webkit-user-select: none; 
   margin-top: 5px; 
-  margin-left: 5px; } 
-        
-#stats{ 
+  margin-left: 5px; 
+}   
+#stats { 
   border-radius: 3px 3px 0 0; 
-  overflow: hidden; } 
-  
-.count-particles{ 
-  border-radius: 0 0 3px 3px; }
+  overflow: hidden; 
+}
+.count-particles { 
+  border-radius: 0 0 3px 3px; 
+}
