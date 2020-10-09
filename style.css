@@ -170,6 +170,12 @@ ul.inline {
   margin: 15px;
   object-fit: cover;
 }
+#art-portfolio{
+  background-size: cover;
+  background-image: url('images/portfolio-art-portfolio.png');
+  margin: 15px;
+  object-fit: cover;
+}
 .inline > li {
   list-style: none;
   display: inline-block;
