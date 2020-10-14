@@ -243,8 +243,8 @@ ul.inline {
     padding: 0px;
     flex-grow: 1;
   }
-  .a {
-    font-size: 20px;
+  #btn-color {
+  	font-size: 16px;
   }
 }
 @media (max-width: 300px) {
