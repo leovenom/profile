@@ -145,7 +145,6 @@ ul.inline {
   margin: 15px;
   object-fit: cover;
 }
-
 #canvas{
   background-size: cover;
   background-image: url('images/portfolio-fun-canvas.png');
@@ -364,7 +363,6 @@ ul.inline {
 .js-count-particles { 
   font-size: 1.1em; 
 } 
-
 #stats, .count-particles { 
   -webkit-user-select: none; 
   margin-top: 5px; 
