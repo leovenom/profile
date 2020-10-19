@@ -145,6 +145,7 @@ ul.inline {
   margin: 15px;
   object-fit: cover;
 }
+
 #canvas{
   background-size: cover;
   background-image: url('images/portfolio-fun-canvas.png');
@@ -172,6 +173,12 @@ ul.inline {
 #art-portfolio{
   background-size: cover;
   background-image: url('images/portfolio-art-portfolio.png');
+  margin: 15px;
+  object-fit: cover;
+}
+#happy{
+  background-size: cover;
+  background-image: url('images/portfolio-happy.png');
   margin: 15px;
   object-fit: cover;
 }
@@ -363,6 +370,7 @@ ul.inline {
 .js-count-particles { 
   font-size: 1.1em; 
 } 
+
 #stats, .count-particles { 
   -webkit-user-select: none; 
   margin-top: 5px; 
