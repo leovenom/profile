@@ -182,6 +182,12 @@ ul.inline {
   margin: 15px;
   object-fit: cover;
 }
+#chair{
+  background-size: cover;
+  background-image: url('images/portfolio-chair.gif');
+  margin: 15px;
+  object-fit: cover;
+}
 .inline > li {
   list-style: none;
   display: inline-block;
