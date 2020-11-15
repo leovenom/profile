@@ -82,9 +82,9 @@ ul.inline {
   background-color: #bad1e8;
   transition: all 0.3s ease;
 }
-#foto {
-  background-size: cover;
-  background-image: url('images/i-4HCZTK4-4K.png');
+img {
+  /* background-size: cover;
+  background-image: url('images/i-4HCZTK4-4K.png'); */
   width: 350px;
   height: 350px;
   margin: 0 auto;
@@ -92,9 +92,9 @@ ul.inline {
   transition: opacity .5s linear;
   cursor: pointer;
 }
-#foto:hover {
+/* #foto:hover {
   background-image: url("images/i-KLsZ98J-4K.png");
-}
+} */
 #panoplia {
   background-size: cover;
   background-image: url('images/portfolio-panoplia-2.png');
@@ -188,12 +188,6 @@ ul.inline {
   margin: 15px;
   object-fit: cover;
 }
-#clickconnect{
-  background-size: cover;
-  background-image: url('images/portfolio-clickconnect.png');
-  margin: 15px;
-  object-fit: cover;
-}
 .inline > li {
   list-style: none;
   display: inline-block;
@@ -241,6 +235,10 @@ ul.inline {
   width: 150px;
   height: 150px;
   }
+  img {
+    width: 150px;
+    height: 150px;
+  }
   .fab {
   font-size: 30px;
   }
@@ -249,7 +247,7 @@ ul.inline {
   }
   p {
   font-size: 16px;
-  margin: 30px 0px;
+  margin: 20px 0px;
   }
   p.title {
     font-size: 25px;
