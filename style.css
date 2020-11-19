@@ -61,7 +61,7 @@ ul.inline {
 .card_white {
   background-color: white;
   padding: 30px;
-  margin: 50px auto;
+  margin: 100px auto;
   border-radius: 5px;
   box-shadow: 10px 10px rgba(90, 90, 90, 0.05);
   text-align: center;
@@ -82,9 +82,14 @@ ul.inline {
   background-color: #bad1e8;
   transition: all 0.3s ease;
 }
-#foto {
-  background-size: cover;
-  background-image: url('images/i-4HCZTK4-4K.png');
+
+.navbar.scrolled {
+  background: #f8f9fa;
+  transition: background 500ms;
+}
+img {
+  /* background-size: cover;
+  background-image: url('images/i-4HCZTK4-4K.png'); */
   width: 350px;
   height: 350px;
   margin: 0 auto;
@@ -92,9 +97,9 @@ ul.inline {
   transition: opacity .5s linear;
   cursor: pointer;
 }
-#foto:hover {
+/* #foto:hover {
   background-image: url("images/i-KLsZ98J-4K.png");
-}
+} */
 #panoplia {
   background-size: cover;
   background-image: url('images/portfolio-panoplia-2.png');
@@ -170,6 +175,24 @@ ul.inline {
   margin: 15px;
   object-fit: cover;
 }
+#art-portfolio{
+  background-size: cover;
+  background-image: url('images/portfolio-art-portfolio.png');
+  margin: 15px;
+  object-fit: cover;
+}
+#happy{
+  background-size: cover;
+  background-image: url('images/portfolio-happy.png');
+  margin: 15px;
+  object-fit: cover;
+}
+#chair{
+  background-size: cover;
+  background-image: url('images/portfolio-chair.gif');
+  margin: 15px;
+  object-fit: cover;
+}
 .inline > li {
   list-style: none;
   display: inline-block;
@@ -217,6 +240,10 @@ ul.inline {
   width: 150px;
   height: 150px;
   }
+  img {
+    width: 150px;
+    height: 150px;
+  }
   .fab {
   font-size: 30px;
   }
@@ -225,6 +252,7 @@ ul.inline {
   }
   p {
   font-size: 16px;
+  margin: 20px 0px;
   }
   p.title {
     font-size: 25px;
@@ -236,8 +264,8 @@ ul.inline {
     padding: 0px;
     flex-grow: 1;
   }
-  .a {
-    font-size: 20px;
+  #btn-color {
+  	font-size: 16px;
   }
 }
 @media (max-width: 300px) {

@@ -1,6 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
     <title>Leonardt Portfolio 👨🏻‍💻</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
@@ -15,20 +16,36 @@
   </head>
   <body>
     <div id="particles-js"></div> 
-
+    <nav id="mainNavbar" class="navbar py-2 fixed-top navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Leonardt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#recent-projects" title="Projects">Projects</a>
+            <a class="nav-link" href="https://www.linkedin.com/in/leonardtlauenstein/" target="_blank" title="linkedin">About</a>
+            <a class="nav-link" href="https://drive.google.com/file/d/1SefL5ut26Ljy-tcz2MprEEr9hasiUVas/view?usp=sharing" target="_blank" title="Curriculum">Resume</a>
+            <a class="nav-link" href="#follow-me" title="Follow me">Follow me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <div class="card_white">
         <h1>Olá, I'm Leonardt Lauenstein</h1>
-        <div id="foto"></div>
-        	<p><strong>Full-Stack Web Developer</strong> graduated at <strong>Le Wagon</strong>, with background in Industrial Design and Contemporary Art. With hands-on experience using <strong>Ruby on Rails</strong> framework, currently working on freelance projects. Willing to expand my career.
-        	</p>
-          <div id="btn">
-          <a href="https://www.linkedin.com/in/leonardtlauenstein/" target="_blank" id="btn-color">ABOUT ME</a>
-          <a href="https://drive.google.com/file/d/1SefL5ut26Ljy-tcz2MprEEr9hasiUVas/view?usp=sharing" target="_blank" id="btn-color">CV</a>
-          </div>
+        <!-- <div id="foto" alt="Leonardt Lauenstein" title="Leonardt Lauenstein"></div> -->
+        <img class="image" src="/images/i-4HCZTK4-4K.png" alt="Leonardt Lauenstein" title="Leonardt Lauenstein"/>
+          <p><strong>Full-Stack Web Developer</strong> graduated at <strong>Le Wagon</strong>, with background in Industrial Design and Contemporary Art. With hands-on experience using <strong>Ruby on Rails</strong> framework, currently working on freelance projects. Willing to expand my career.
+          </p>
+          <!-- <div id="btn">
+          <a href="https://www.linkedin.com/in/leonardtlauenstein/" target="_blank" id="btn-color" title="linkedin">ABOUT ME</a>
+          <a href="https://drive.google.com/file/d/1SefL5ut26Ljy-tcz2MprEEr9hasiUVas/view?usp=sharing" target="_blank" id="btn-color" title="Curriculum">CV</a>
+          </div> -->
       </div>
 
-      <div class="card_projects">
+      <div class="card_projects" id="recent-projects">
         <h2>Recent projects</h2>
         <div class="content">
           
@@ -59,11 +76,11 @@
             </div>
           </div>
 
-          <div class="card" id="git-search" title="GitHub user search">
+          <div class="card" id="loker" title="Loka loker">
             <div class="data">
-              <a href="https://github-user-search-vue.netlify.app/#/" target="_blank">
-                <p class="title">GitHub user search</p>
-                <p class="text">Web application with Vue.js</p>
+              <a href="https://loca-locker-tamaramontijo.herokuapp.com/" target="_blank">
+                <p class="title">Loka loker</p>
+                <p class="text">An MVP based on Airbnb where anyone can rent and/or add a locker in any city around the world.</p>
               </a>
             </div>
           </div>
@@ -77,6 +94,15 @@
             </div>
           </div>
 
+          <div class="card" id="happy" title="Happy">
+            <div class="data">
+              <a href="https://happy-aplication.netlify.app/" target="_blank">
+                <p class="title">Happy</p>
+                <p class="text">Visit orphanages and change a child's day</p>
+              </a>
+            </div>
+          </div>
+
           <div class="card" id="candy" title="Museum of candy">
             <div class="data">
               <a href="https://museumofcandys.netlify.app/" target="_blank">
@@ -86,20 +112,38 @@
             </div>
           </div>
 
+          <div class="card" id="art-portfolio" title="Art portfolio">
+            <div class="data">
+              <a href="https://leonardt.netlify.app/" target="_blank">
+                <p class="title">Art portfolio</p>
+                <p class="text">Artist Assitant</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="card" id="chair" title="chair">
+            <div class="data">
+              <a href="https://chairs.netlify.app/" target="_blank">
+                <p class="title">Chairs</p>
+                <p class="text">Mini-app using React three fiber</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="card" id="git-search" title="GitHub user search">
+            <div class="data">
+              <a href="https://github-user-search-vue.netlify.app/#/" target="_blank">
+                <p class="title">GitHub user search</p>
+                <p class="text">Web application with Vue.js</p>
+              </a>
+            </div>
+          </div>
+
           <div class="card" id="dribbble" title="Dribbble clone">
             <div class="data">
               <a href="https://advicefront.netlify.app/" target="_blank">
                 <p class="title">Dribbble clone</p>
                 <p class="text">Any similarities with dribbble are a pure coincidence</p>
-              </a>
-            </div>
-          </div>
-
-          <div class="card" id="loker" title="Loka loker">
-            <div class="data">
-              <a href="https://loca-locker-tamaramontijo.herokuapp.com/" target="_blank">
-                <p class="title">Loka loker</p>
-                <p class="text">An MVP based on Airbnb where anyone can rent and/or add a locker in any city around the world.</p>
               </a>
             </div>
           </div>
@@ -143,7 +187,7 @@
         </div>
       </div>
 
-      <div class="card_white">
+      <div class="card_white" id="follow-me">
         <h2>Follow me</h2>
         <ul class="inline">
           <li>
@@ -162,15 +206,42 @@
             </a>
           </li>
           <li>
-            <a href="https://cargocollective.com/leonardt" target="_blank" title="Cargo collective">
+            <a href="https://leonardt.netlify.app" target="_blank" title="Art Portfolio">
               <i class="fas fa-pen-square"></i>
             </a>
           </li>
         </ul>
       </div>
     </div>
+    <footer class="footer py-3 mt-auto text-center">
+      <div class="container">
+        <span class="text-muted">&copy; Leonardt Lauenstein <span id="year"></span></span>
+      </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script type="text/javascript" src="particule.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <script>  
+    $(document).ready(function(){  
+      $(".image").hover(function(){  
+        $(this).attr('src','/images/i-KLsZ98J-4K.png');  
+        }, function(){  
+        $(this).attr('src','/images/i-4HCZTK4-4K.png');  
+      });  
+    });  
+    </script>
+        <script>
+          $(function () {
+              $(document).scroll(function(){
+                  let $nav = $("#mainNavbar");
+                  $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+              });
+          });
+          </script>
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
   </body>
 </html>
