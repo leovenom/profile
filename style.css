@@ -63,13 +63,20 @@ ul.inline {
 }
 .navbar-light .navbar-brand {
   color: #283742;
+  font-weight: bold;
 }
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #283742;
 }
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
   color: #283742;
 }
+/* .navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+} */
 .card_white {
   background-color: white;
   padding: 30px;
@@ -96,8 +103,21 @@ ul.inline {
 }
 
 .navbar.scrolled {
-  background: #f8f9fa;
+  background: #f6f7f7;
   transition: background 500ms;
+}
+#spacer { 
+  height:1px; 
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.navbar-nav {
+flex: .915;
+display: flex;
+justify-content: center;
 }
 img {
   /* background-size: cover;
