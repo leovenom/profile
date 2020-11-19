@@ -179,7 +179,6 @@
               </a>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -228,16 +227,18 @@
       });  
     });  
     </script>
-        <script>
-          $(function () {
-              $(document).scroll(function(){
-                  let $nav = $("#mainNavbar");
-                  $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-              });
+
+    <script>
+      $(function () {
+          $(document).scroll(function(){
+              let $nav = $("#mainNavbar");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
           });
-          </script>
+      });
+    </script>
     <script>
       document.getElementById("year").innerHTML = new Date().getFullYear();
-  </script>
+    </script>
+    
   </body>
 </html>
