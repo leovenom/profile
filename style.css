@@ -100,6 +100,7 @@ ul.inline {
 #btn-color:hover {
   background-color: #bad1e8;
   transition: all 0.3s ease;
+}
 
 .navbar.scrolled {
   background: #f6f7f7;
@@ -118,7 +119,6 @@ flex: .915;
 display: flex;
 justify-content: center;
 }
-  
 img {
   /* background-size: cover;
   background-image: url('images/i-4HCZTK4-4K.png'); */
