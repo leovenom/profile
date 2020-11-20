@@ -199,6 +199,9 @@
         </ul>
       </div>
     </div>
+    <footer class="footer">
+        <span class="text-muted">&copy; Leonardt Lauenstein <span id="year"></span></span>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script type="text/javascript" src="particule.js"></script>
@@ -211,6 +214,9 @@
         $(this).attr('src','/images/i-4HCZTK4-4K.png');  
       });  
     });  
-    </script>  
+    </script>
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
   </body>
 </html>
