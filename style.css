@@ -286,6 +286,9 @@ img {
   #btn-color {
   	font-size: 16px;
   }
+  .wrap{
+    font-size: 17px;
+  }
 }
 @media (max-width: 300px) {
   .fab {
@@ -471,4 +474,12 @@ img {
   font-family: 'Karla', sans-serif;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.typewrite {
+  font-size: 26px;
+  color: #283742;
+  margin-bottom: 1.2em;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
 }
