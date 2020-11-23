@@ -1,6 +1,6 @@
 
 particlesJS("particles-js", {"particles":
-{"number":{"value":200,"density":
+{"number":{"value":400,"density":
 {"enable":true,"value_area":600}},"color":
 {"value":"#b9b7b7"},"shape":
 {"type":"circle","stroke":
