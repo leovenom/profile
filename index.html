@@ -12,6 +12,7 @@
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
     <title>Leonardt Portfolio 👨🏻‍💻</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,11 +42,11 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <main class="container">
 
-      <div class="card_white">
+      <section class="card_white">
         <h1>
-          <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am Leonardt", "Tickle me", "Hallo, ich bin Leonardt", "I love to develop" ]'>
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am Leonardt", "I love to develop", "Hallo, ich bin Leonardt", "I love to develop" ]'>
             <span class="wrap"></span>
           </a>
         </h1>
@@ -54,13 +55,42 @@
           <p><strong>Full-Stack Web Developer</strong> graduated at <strong>Le Wagon</strong>, with a background in Industrial Design and Contemporary Art.
              With hands-on experience using <strong>Ruby</strong>, <strong>HTML / CSS</strong>, <strong>JavaScript</strong>, <strong>React</strong> and <strong>Vue</strong> JS frameworks currently working on freelance projects. Willing to expand my career.
           </p>
-      </div>
+        </section>
       
       <div id="spacer"></div>
-      <div class="cards_projects">
+      <main class="cards_projects">
         <h2>Recent projects</h2>
-        <div class="content">
+        
+        <section class="content">
+          <section>
+            <div class="cards" id="panoplia" title="Panóplia">
+              <div class="data">
+                <a href="http://www.panoplia.art" target="_blank">
+                  <p class="title">Panóplia</p>
+                  <p class="text">A platform that connects artists from different backgrounds to professional opportunities.</p>
+                </a>
+              </div>
+            </div>
+            <div id="accordion">
+              <div class="d-flex justify-content-center" id="headingTwo">
+                <a class="btn-floating halfway-fab " data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" title="Technologies">+</a>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <span class="badge badge-secondary">rails6</span>
+                  <span class="badge badge-secondary">ruby-on-rails</span>
+                  <span class="badge badge-secondary">javascript</span>
+                  <span class="badge badge-secondary">postgresql</span>
+                  <span class="badge badge-secondary">css/sass</span>
+                  <span class="badge badge-secondary">bulma</span>
+                  <span class="badge badge-secondary">heroku</span>
+                  <span class="badge badge-secondary">cloudinary</span>
+                </div>
+              </div>
+            </div>
+          </section>
 
+          <!-- Panóplia Card -->
           <div class="cards" id="panoplia" title="Panóplia">
             <div class="data">
               <a href="http://www.panoplia.art" target="_blank">
@@ -69,7 +99,9 @@
               </a>
             </div>
           </div>
+          <!-- Panóplia Card end -->
 
+          <!-- Ripio Card -->
           <div class="cards" id="ripio" title="Ripio">
             <div class="data">
               <a href="http://www.ripio.life/" target="_blank">
@@ -78,7 +110,9 @@
               </a>
             </div>
           </div>
+          <!-- Ripio Card end-->
 
+          <!-- Proffy Card -->
           <div class="cards" id="proffy" title="Proffy">
             <div class="data">
               <a href="https://proffy-react.netlify.app/" target="_blank">
@@ -87,7 +121,9 @@
               </a>
             </div>
           </div>
+          <!-- Proffy Card end -->
 
+          <!-- Loka loker Card -->
           <div class="cards" id="loker" title="Loka loker">
             <div class="data">
               <a href="https://loca-locker-tamaramontijo.herokuapp.com/" target="_blank">
@@ -96,7 +132,9 @@
               </a>
             </div>
           </div>
+          <!-- Loka loker Card end -->
 
+          <!-- Weather app Card -->
           <div class="cards" id="weather" title="Weather app">
             <div class="data">
               <a href="https://clima-app-vue.netlify.app/" target="_blank">
@@ -105,7 +143,9 @@
               </a>
             </div>
           </div>
+          <!-- Weather app Card end -->
 
+          <!-- Happy Card -->
           <div class="cards" id="happy" title="Happy">
             <div class="data">
               <a href="https://happy-aplication.netlify.app/" target="_blank">
@@ -114,7 +154,9 @@
               </a>
             </div>
           </div>
+          <!-- Happy Card end -->
 
+          <!-- Museum of candy Card -->
           <div class="cards" id="candy" title="Museum of candy">
             <div class="data">
               <a href="https://museumofcandys.netlify.app/" target="_blank">
@@ -123,7 +165,9 @@
               </a>
             </div>
           </div>
+          <!-- Museum of candy Card end -->
 
+          <!-- Art portfolio Card -->
           <div class="cards" id="art-portfolio" title="Art portfolio">
             <div class="data">
               <a href="https://leonardt.netlify.app/" target="_blank">
@@ -132,7 +176,9 @@
               </a>
             </div>
           </div>
+          <!-- Art portfolio Card end -->
 
+          <!-- chair Card -->
           <div class="cards" id="chair" title="chair">
             <div class="data">
               <a href="https://chairs.netlify.app/" target="_blank">
@@ -141,7 +187,9 @@
               </a>
             </div>
           </div>
+          <!-- chair Card end -->
 
+          <!-- GitHub user search Card -->
           <div class="cards" id="git-search" title="GitHub user search">
             <div class="data">
               <a href="https://github-user-search-vue.netlify.app/#/" target="_blank">
@@ -150,7 +198,9 @@
               </a>
             </div>
           </div>
+          <!-- GitHub user search Card end -->
 
+          <!-- Dribbble clone Card -->
           <div class="cards" id="dribbble" title="Dribbble clone">
             <div class="data">
               <a href="https://advicefront.netlify.app/" target="_blank">
@@ -159,7 +209,9 @@
               </a>
             </div>
           </div>
-          
+          <!-- Dribbble clone Card end -->
+
+          <!-- Color game Card -->
           <div class="cards" id="game" title="Color game">
             <div class="data">
               <a href="https://thecolor-game.netlify.app/" target="_blank">
@@ -168,7 +220,9 @@
               </a>
             </div>
           </div>
+          <!-- Color game Card end -->
 
+          <!-- Instagram party mode Card -->
           <div class="cards" id="insta" title="Instagram party mode">
             <div class="data">
               <a href="https://instagramdarkmodeparty.herokuapp.com/users/1" target="_blank">
@@ -177,7 +231,9 @@
               </a>
             </div>
           </div>
+          <!-- Instagram party mode Card end -->
 
+          <!-- Fun whit canvas Card -->
           <div class="cards" id="canvas" title="Fun whit canvas">
             <div class="data">
               <a href="https://fun-with-canvas-htm5.netlify.app/" target="_blank">
@@ -186,7 +242,9 @@
               </a>
             </div>
           </div>
+          <!-- Fun whit canvas Card end -->
 
+          <!-- Drum kit Card -->
           <div class="cards" id="key" title="Drum kit">
             <div class="data">
               <a href="https://js-drum-key.netlify.app/" target="_blank">
@@ -195,11 +253,12 @@
               </a>
             </div>
           </div>
+          <!-- Drum kit Card end -->
+        </section>
+      </main>
 
-        </div>
-      </div>
-
-      <div class="" id="follow-me">
+      <!-- follow-me nav -->
+      <nav class="" id="follow-me">
         <h2>Follow me</h2>
         <ul class="inline">
           <li>
@@ -223,8 +282,10 @@
             </a>
           </li>
         </ul>
-      </div>
-    </div>
+      </nav>
+       <!-- follow-me nav end -->
+    </main>
+
     <footer class="footer">
       <span class="text-muted">&copy; Leonardt Lauenstein <span id="year"></span></span>
     </footer>

@@ -41,6 +41,67 @@ a {
 a:hover {
   color: #283742;
 }
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+}
+.badge-secondary {
+  color: #fff;
+  background-color: #838c94;
+}
+
+.btn-floating.halfway-fab {
+  /* position: absolute; */
+  /* right: 125px; */
+  bottom: 10px;
+}
+.btn-floating  {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 1px;
+  background-color: rgba(244, 67, 54,0.7);
+  border-radius: 50%;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+}
+.btn-floating:hover {
+  background-color: rgba(255,255,255,0.5);
+  color: #fff;
+}
+
+.btn-floating:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 1000%;
+  background: #f44336;
+  z-index: -1;
+  transform-origin: 0% 0%;
+  transform: translateX(calc(10% - 25px)) translateY(10%) rotate(-45deg);
+  transform: translateY(10%) translateX(16%) rotate(-45deg);
+  transition: transform .3s;
+}
+.btn-floating:hover::after {
+  transform: translateY(10%) translateX(-30px) rotate(-45deg);
+}
+.badge {
+  font-family: 'Karla', sans-serif;
+}
+.card-body {
+  padding-top: 5px;
+  margin-top: -10px;
+}
+
 .inline a {
   color: #283742;
   font-size: 25px;
@@ -301,7 +362,7 @@ img {
   margin: 0 auto;
   display: grid;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   grid-template-columns: repeat(3, 1fr);
 }
 .cards {
@@ -368,6 +429,11 @@ img {
 .data {
   height: 100%;
   width: 100%;
+}
+#accordion {
+  margin-top: -33px;
+  margin-left: 13px;
+  width: 303px;
 }
 /* ---- reset ---- */ 
 #particles-js canvas {
