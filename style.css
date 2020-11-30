@@ -61,10 +61,10 @@ a:hover, a:visited, a:link, a:active
   position: relative;
   overflow: hidden;
   z-index: 1;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  margin-right: 2px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 0px;
   background-color: #f44336;
   border-radius: 50%;
   -webkit-transition: background-color .3s;
@@ -98,7 +98,7 @@ a:hover, a:visited, a:link, a:active
   font-family: 'Karla', sans-serif;
 }
 .card-body {
-  padding-top: 5px;
+  /* padding-top: 5px; */
   margin-top: -10px;
 }
 
