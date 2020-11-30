@@ -48,6 +48,8 @@ a:hover, a:visited, a:link, a:active
 .badge-secondary {
   color: #fff;
   background-color: #838c94;
+  margin: 0 .125em .333em 0;
+  line-height: 18px;
 }
 
 .btn-floating.halfway-fab {
