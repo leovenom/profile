@@ -274,6 +274,18 @@ img {
   margin: 15px;
   object-fit: cover;
 }
+#clickconnect{
+  background-size: cover;
+  background-image: url('images/portfolio-clickconnect.png');
+  margin: 15px;
+  object-fit: cover;
+}
+#yelpcamp{
+  background-size: cover;
+  background-image: url('images/portfolio-yelpcamp.png');
+  margin: 15px;
+  object-fit: cover;
+}
 .inline > li {
   list-style: none;
   display: inline-block;
