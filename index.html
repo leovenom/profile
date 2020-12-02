@@ -413,7 +413,7 @@
           <section>
             <div class="cards" id="clickconnect" title="Project for Clickconnect">
               <div class="data">
-                <a href="https://advicefront.netlify.app/" target="_blank">
+                <a href="https://clickconnect-test.netlify.app/" target="_blank">
                   <p class="title">Form project</p>
                   <p class="text">Form project responsive for Clickconnect</p>
                 </a>
@@ -569,6 +569,7 @@
        <!-- follow-me nav end -->
     </main>
 
+    <!-- footer -->
     <footer class="footer">
       <span class="text-muted">&copy; Leonardt Lauenstein <span id="year"></span></span>
     </footer>
@@ -577,83 +578,7 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script type="text/javascript" src="particule.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
-    <script>  
-    $(document).ready(function(){  
-      $(".image").hover(function(){  
-        $(this).attr('src','/images/i-KLsZ98J-4K.png');  
-        }, function(){  
-        $(this).attr('src','/images/i-4HCZTK4-4K.png');  
-      });  
-    });  
-    </script>
-        <script>
-          $(function () {
-              $(document).scroll(function(){
-                  let $nav = $("#mainNavbar");
-                  $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-              });
-          });
-          </script>
-    <script>
-      document.getElementById("year").innerHTML = new Date().getFullYear();
-    </script>
-    <script>
-    let TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
-
-    TxtType.prototype.tick = function() {
-        let i = this.loopNum % this.toRotate.length;
-        let fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-        let that = this;
-        let delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
-
-        setTimeout(function() {
-        that.tick();
-        }, delta);
-    };
-
-    window.onload = function() {
-        let elements = document.getElementsByClassName('typewrite');
-        for (let i=0; i<elements.length; i++) {
-            let toRotate = elements[i].getAttribute('data-type');
-            let period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
-        }
-        // INJECT CSS
-        let css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
-    };
-    </script>
+    <script type="text/javascript" src="js.js"></script>
+    
   </body>
 </html>
