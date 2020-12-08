@@ -1,4 +1,4 @@
-# My profile page 👨🏻‍💻
+# My portfolio 👨🏻‍💻
 
 <a href="https://leonardt.eu">
  <p align="center">
