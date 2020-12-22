@@ -286,6 +286,12 @@ img {
   margin: 15px;
   object-fit: cover;
 }
+#dolla{
+  background-size: cover;
+  background-image: url('images/portfolio-dolla.gif');
+  margin: 15px;
+  object-fit: cover;
+}
 .inline > li {
   list-style: none;
   display: inline-block;
