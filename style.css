@@ -75,7 +75,7 @@ a:hover, a:visited, a:link, a:active
   font-family: 'Rubik', sans-serif;
 }
 .btn-floating:hover {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(240, 70, 58, 0.5);
   color: #fff;
 }
 
@@ -100,7 +100,6 @@ a:hover, a:visited, a:link, a:active
   font-family: 'Karla', sans-serif;
 }
 .card-body {
-  /* padding-top: 5px; */
   margin-top: -10px;
 }
 
@@ -137,17 +136,6 @@ ul.inline {
   margin: 50px auto;
   text-align: center;
 }
-/* #btn-color {
-  background-color: #283742;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-right: 20px;
-  margin: 15px 4px;
-}
-#btn-color:hover {
-  background-color: #bad1e8;
-  transition: all 0.3s ease;
-} */
 .navbar.scrolled {
   background: #f6f7f7;
   transition: background 500ms;
@@ -169,8 +157,6 @@ ul.inline {
 }
 
 img {
-  /* background-size: cover;
-  background-image: url('images/i-4HCZTK4-4K.png'); */
   width: 350px;
   height: 350px;
   margin: 0 auto;
@@ -178,9 +164,7 @@ img {
   transition: opacity .5s linear;
   cursor: pointer;
 }
-/* #foto:hover {
-  background-image: url("images/i-KLsZ98J-4K.png");
-} */
+
 #panoplia {
   background-size: cover;
   background-image: url('images/portfolio-panoplia-2.png');
@@ -292,6 +276,13 @@ img {
   margin: 15px;
   object-fit: cover;
 }
+#mem{
+  background-size: cover;
+  background-image: url('images/portfolio-MM.png');
+  margin: 15px;
+  object-fit: cover;
+}
+
 .inline > li {
   list-style: none;
   display: inline-block;
