@@ -282,6 +282,12 @@ img {
   margin: 15px;
   object-fit: cover;
 }
+#lau{
+  background-size: cover;
+  background-image: url('images/portfolio-lauenstein.png');
+  margin: 15px;
+  object-fit: cover;
+}
 
 .inline > li {
   list-style: none;
@@ -324,7 +330,7 @@ img {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 330px;
   }
   #foto {
   width: 150px;
